@@ -1,0 +1,18 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-display:inherit;
+    background-color: lightblue;  
+
+}
+.center{
+    align-items: center;
+    justify-content: center;
+}
+
+#clock{
+    background-color: rgb(122, 221, 125);
+    padding: 54px;
+    align-items: center;
+    justify-content: center;
+}

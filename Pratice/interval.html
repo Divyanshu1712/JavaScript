@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bgcolor- game</title>
+    <style>
+        #main-box{
+            align-items: center;
+            height: 200px;
+            border: 2px solid red;
+        }
+        #circle{
+            align-items: center;
+            border-radius: 50%;
+            height: 195px;
+            border: 2px solid black;
+        }
+        button{
+            padding: 2px 2px;
+            border: 1px solid rgb(136, 99, 214);
+            grid-auto-flow: dense;
+        }
+    </style>
+</head>
+<body>
+    <div id="main-box">
+        <div id="circle"></div>
+    </div>
+    <button type="button" id="Start">Start</button>
+    <button type="button" id="Stop">Stop</button>
+
+    <script>
+
+        let mainCircle = document.getElementById("main-box");
+        let circle =  document.getElementById("circle");
+        let Start =  document.getElementById("Start");
+        let Stop =  document.getElementById("Stop");
+
+        Start.addEventListener('click', () =>{
+            setInterval(2000);
+        });
+
+        
+    
+        
+    </script>
+</body>
+</html>
